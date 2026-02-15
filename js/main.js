@@ -1,3 +1,9 @@
 "use strict";
 
-alert("Hello, World!");
+let displayValue = '';
+const display = document.getElementById('display');
+
+const appendToDisplay = (value) => {
+    displayValue += value;
+    display.value = displayValue;
+}
