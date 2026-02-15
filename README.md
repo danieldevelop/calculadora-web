@@ -1,5 +1,7 @@
 # 📎 Calculadora Web - Basica
 
+![Prototype Calculadora Basica](img/prototype-calculadora-basica.png)
+
 ## 📋 Descripcion
 
 Calculadora básica hecho con HTML, CSS y JS
