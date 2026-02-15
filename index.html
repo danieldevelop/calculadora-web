@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Basica</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://danieldevelop.github.io/calculadora-web/css/style.css">
+</head>
+<body>
+
+    <main>
+        <div class="container">
+            <h1>Calculadora Basica</h1> 
+            <h3><a href="https://github.com/danieldevelop/calculadora-web"><i class="fa fa-github"></i> Codigo Fuente</a></h3>
+
+            <section class="calc">
+                <input type="text" name="display" id="display" class="display" disabled>
+
+                <div class="keys">
+                    <button onclick="clearDisplay()">C</button>
+                    <button onclick="appendToDisplay('7')">7</button>
+                    <button onclick="appendToDisplay('8')">8</button>
+                    <button onclick="appendToDisplay('9')">9</button>
+                    
+                    <button onclick="appendToDisplay('+')">+</button>
+                    <button onclick="appendToDisplay('4')">4</button>
+                    <button onclick="appendToDisplay('5')">5</button>
+                    <button onclick="appendToDisplay('6')">6</button>
+                    
+                    <button onclick="appendToDisplay('-')">-</button>
+                    <button onclick="appendToDisplay('1')">1</button>
+                    <button onclick="appendToDisplay('2')">2</button>
+                    <button onclick="appendToDisplay('3')">3</button>
+                    
+                    <button onclick="appendToDisplay('*')">*</button>
+                    <button onclick="appendToDisplay('0')">0</button>
+                    <button onclick="appendToDisplay('.')">.</button>
+                    <button class="key-igual" onclick="calculate()">=</button>
+
+                    <button onclick="appendToDisplay('/')">/</button>
+                </div>
+            </section>
+        </div>
+    </main>
+
+
+    <script src="https://kit.fontawesome.com/141371d4e4.js" crossorigin="anonymous"></script>
+    <script src="https://danieldevelop.github.io/calculadora-web/js/main.js" type="module"></script>
+</body>
+</html>
