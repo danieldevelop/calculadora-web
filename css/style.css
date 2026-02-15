@@ -10,6 +10,18 @@ body {
 }
 
 .container {
+    text-align: center;
     max-width: 400px;
     margin: 0 auto;
+
+    & h3 {
+        & a {
+            color: #333;
+            text-decoration: none;
+
+            &:hover {
+                color: #068ddc;
+            }
+        }
+    }
 }
