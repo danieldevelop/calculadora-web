@@ -1,7 +1,5 @@
 "use strict";
 
-import { clearDisplay } from './utils.js';
-
 let displayValue = '';
 const display = document.getElementById('display');
 
